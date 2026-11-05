@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <title>Meze: Лабиринты — Документы</title>
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: #07152b;
+      color: #f4f7ff;
+      font-family: system-ui, Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+    }
+
+    main {
+      width: min(640px, calc(100% - 32px));
+      margin: auto;
+      padding: 64px 0;
+    }
+
+    .logo {
+      color: #77c8ff;
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      font-size: clamp(32px, 6vw, 48px);
+      margin: 16px 0;
+    }
+
+    p {
+      color: #b1bfd5;
+      line-height: 1.7;
+    }
+
+    .card {
+      display: block;
+      padding: 24px;
+      margin-top: 16px;
+      color: #f4f7ff;
+      text-decoration: none;
+      background: #112543;
+      border: 1px solid #284566;
+      border-radius: 16px;
+      transition: background .2s;
+    }
+
+    .card:hover {
+      background: #193354;
+    }
+
+    .card strong {
+      display: block;
+      margin-bottom: 8px;
+      font-size: 18px;
+    }
+
+    .card span {
+      color: #b1bfd5;
+      font-size: 14px;
+    }
+
+    footer {
+      padding: 24px;
+      text-align: center;
+      color: #8294ae;
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="logo">Meze</div>
+    <h1>Meze: Лабиринты</h1>
+    <p>
+      Официальные документы мобильной игры Meze.
+      Здесь будут опубликованы условия использования
+      и информация о защите пользовательских данных.
+    </p>
+
+    <a class="card" href="./privacy/">
+      <strong>Политика конфиденциальности</strong>
+      <span>Обработка и защита пользовательских данных</span>
+    </a>
+
+    <a class="card" href="./terms/">
+      <strong>Пользовательское соглашение</strong>
+      <span>Правила использования игры Meze</span>
+    </a>
+  </main>
+
+  <footer>Meze · Документы проекта</footer>
+</body>
+</html>
